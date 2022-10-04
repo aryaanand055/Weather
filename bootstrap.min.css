@@ -2694,8 +2694,8 @@ textarea.form-control-lg {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact
+    /* -webkit-print-color-adjust: exact;
+    color-adjust: exact; */
 }
 
 .form-check-input[type=checkbox] {
@@ -7819,7 +7819,7 @@ fieldset:disabled .btn {
 }
 
 .h-25 {
-    /* height: 25% !important */
+    height: 25% !important
 }
 
 .h-50 {
