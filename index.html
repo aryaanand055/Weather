@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="styesheet" href="bootstrap.css"> -->
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="card border-secondary mw-75 mt-4 mb-4 mx-auto">
+            <div class="card-header">
+                <h1 class=" text-center d-inline">Weather</h1>
+
+                <img id="imgIcon" class="float-right"><br><br>
+                <p class="float-right m-0" id="iconInfo">Weather condition</p>
+                <h5 class="d-inine" id="city">City</h5>
+                <br><br>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="City" spellcheck="false">
+                    <label for="floatingInput">Change Location</label>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <h4 class="card-title">Details</h4>
+                <div class="card-text" id="card-content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="weather.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
