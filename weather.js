@@ -4,7 +4,7 @@ class Weather {
     }
     async fetchCurrentWeather(place, aqiRequired = "no") {
         try {
-            const weatherResponse = await fetch(`http://api.weatherapi.com/v1/current.json?key=${this.apiKey}&q=${place}&aqi=${aqiRequired}`);
+            const weatherResponse = await fetch(`https://api.weatherapi.com/v1/current.json?key=${this.apiKey}&q=${place}&aqi=${aqiRequired}`);
             const res = await weatherResponse.json();
             if (res.error !== undefined) {
                 return "No Location found";

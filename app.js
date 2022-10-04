@@ -3,7 +3,6 @@ const ui = new Ui;
 let place;
 const cityInput = document.getElementById("floatingInput");
 
-// if(localStorage.)
 
 
 window.addEventListener("load", function () {
