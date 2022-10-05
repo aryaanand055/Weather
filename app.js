@@ -19,7 +19,7 @@ document.addEventListener("click", function (e) {
 
     if (e.target.id === "refresh") {
         console.log("Fetching")
-        weather.fetchCurrentWeather(place).then(data => {
+        weather.fetchCurrentWeather(localStorage.getItem("city")).then(data => {
             ui.showWeather(data, true)
         });
     }
